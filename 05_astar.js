@@ -58,7 +58,7 @@ function getPrintData(data) {
 
 function puzzle() {
 	var nodes //= prompt("Ingrese texto inicial y texto final separados por un espacio")
-	if (nodes == null || nodes == '') nodes = '14253678 12345678'
+	if (nodes == null || nodes == '') nodes = '34125786 12345678'
 	nodes = nodes.split(' ')
 	return bestfirst(nodes[0], nodes[1])
 }
